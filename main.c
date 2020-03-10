@@ -1,3 +1,11 @@
+/*
+ Copyright @ Yupeng Lei
+ 
+ Licensed under the MIT License
+ 
+ This is a web proxy in C 
+*/
+
 #include <sys/socket.h>
 #include <stdio.h>
 #include <netdb.h>

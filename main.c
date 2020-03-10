@@ -1,5 +1,5 @@
 /*
- Copyright @ Yupeng Lei
+ Copyright @ Yupeng Lei, Vincent Chen
  
  Licensed under the MIT License
  

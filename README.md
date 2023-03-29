@@ -9,6 +9,17 @@ This is a simple web proxy implemented in C. The proxy acts as an intermediary b
 
 To use the web proxy, first compile the `main.c` file using a C compiler
 
+gcc main.c -o main
+
+
+Then, start the proxy server by running the following command:
+
+./main <port>
+
+Replace `<port>` with the port number on which you want to run the proxy server.
+
+Once the proxy server is running, you can configure your web browser to use the proxy server. In Firefox, for example, go to Preferences -> General -> Network Proxy and enter the IP address and port number of the proxy server.
+
 ## Features
 
 This web proxy supports the following features:

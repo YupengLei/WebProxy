@@ -1,32 +1,34 @@
 # Web Proxy
 > A web proxy in C
 
-## 🚩 Table of Contents  
-* [Description](#-Description) 
-* [Tech](#-Tech)
-* [Credits](#-Credits)
-* [License](#-License)
+# Web Proxy in C
 
-## 🚩 Description  
-This is a web proxy in C that could
+This is a simple web proxy implemented in C. The proxy acts as an intermediary between the client and the server, allowing the client to access web pages through the proxy server.
 
- read rquest from browser;
- 
- lookup DNS;
- 
- forward request to web server;
- 
- read reply from web server;
- 
- forward reply to browser;
- 
- and block list of domains;
+## Usage
 
-## 🚩 Tech
-N/A
+To use the web proxy, first compile the `main.c` file using a C compiler
 
-## 🚩 Credits 
-@Author Yupeng Lei, Vincent Chen
+## Features
 
-## 🚩 License  
-The MIT License
+This web proxy supports the following features:
+
+- HTTP/1.0 and HTTP/1.1 protocols
+- GET and POST requests
+- Caching of web pages
+- Blacklisting of URLs
+
+## Future Improvements
+
+There are several improvements that could be made to this web proxy, including:
+
+- Support for HTTPS connections
+- Better error handling
+- More efficient caching algorithm
+- Whitelisting of URLs
+
+## License
+
+
+
+

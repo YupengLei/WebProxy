@@ -29,6 +29,6 @@ There are several improvements that could be made to this web proxy, including:
 
 ## License
 
-
+This web proxy is released under the MIT License. 
 
 
